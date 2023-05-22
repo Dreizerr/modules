@@ -1,0 +1,19 @@
+@import "_nullstyle";
+@import "_generals";
+
+.main {
+}
+
+.modules {
+}
+
+.modules__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.modules__item {
+}
