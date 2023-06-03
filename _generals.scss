@@ -1,6 +1,10 @@
 @import "_adaptiveValue";
 @import "_variables";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--main-text-color);
   background-color: var(--main-page-bg-color);
@@ -38,8 +42,4 @@ h5 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
-}
-
-.section-title {
-  text-align: center;
 }
