@@ -239,6 +239,24 @@ h5 {
   display: none;
 }
 
+.topic-block-download {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #bbb;
+}
+
+.topic-block-download__link {
+  color: blue;
+}
+.topic-block-download__link:visited {
+  color: blue;
+}
+@media (any-hover: hover) {
+  .topic-block-download__link:hover {
+    text-decoration: underline;
+  }
+}
+
 .topic-block-text {
   display: flex;
   flex-direction: column;

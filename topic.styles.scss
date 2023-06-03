@@ -87,6 +87,24 @@
 .topic-video-swiper__next {
 }
 
+.topic-block-download {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #bbb;
+}
+
+.topic-block-download__link {
+  color: blue;
+  &:visited {
+    color: blue;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .topic-block-text {
   display: flex;
   flex-direction: column;
