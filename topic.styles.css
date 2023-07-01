@@ -192,6 +192,10 @@ h5 {
   gap: 25px;
 }
 
+.topic-home {
+  align-self: start;
+}
+
 .topic-block-video {
   position: relative;
   width: 100%;
